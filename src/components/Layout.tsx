@@ -17,13 +17,13 @@ export default function Layout() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3 group">
             <img 
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuoNbUP9An3LQVnIPp69JE3JjArjr0g22RAw&s" 
-              alt="NUVA Logo" 
+              src="https://static.vecteezy.com/system/resources/previews/019/584/620/non_2x/nua-logo-and-graphics-design-art-icons-isolated-on-black-background-vector.jpg" 
+              alt="NUA Logo" 
               className="h-10 w-auto mix-blend-multiply transition-transform group-hover:scale-105"
               referrerPolicy="no-referrer"
             />
             <span className="font-serif text-2xl tracking-tighter font-bold text-brand-charcoal">
-              NUVA
+              NUA
             </span>
           </Link>
           
@@ -35,7 +35,7 @@ export default function Layout() {
 
           <div className="flex items-center gap-4">
             <Link to="/contact" className="hidden sm:inline-flex text-[10px] font-bold tracking-widest uppercase border border-brand-slate/20 px-8 py-3 rounded-full hover:bg-brand-slate hover:text-brand-cream transition-all">
-              Book Session
+              Book now
             </Link>
             <button 
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -79,15 +79,15 @@ export default function Layout() {
           <div className="space-y-6">
             <Link to="/" className="flex items-center justify-center md:justify-start gap-4 group">
               <img 
-                src="https://static.vecteezy.com/system/resources/previews/015/282/896/non_2x/nv-initial-wedding-monogram-logo-vector.jpg" 
+                src="" 
                 alt="NUVA Logo" 
                 className="h-14 w-auto brightness-0 invert opacity-80 hover:opacity-100 transition-all group-hover:scale-105"
                 referrerPolicy="no-referrer"
               />
-              <span className="font-serif text-4xl text-brand-cream tracking-tighter">NUVA</span>
+              <span className="font-serif text-4xl text-brand-cream tracking-tighter">NUA</span>
             </Link>
             <p className="text-[10px] max-w-xs leading-relaxed tracking-widest uppercase opacity-60">
-              © 2026 Nuva Studio. Capturing authentic human connections through minimalist visual storytelling.
+              © 2026 Nua Studio. Capturing authentic human connections through minimalist visual storytelling.
             </p>
           </div>
           <div className="flex flex-wrap justify-center md:justify-end gap-x-12 gap-y-6 text-[10px] tracking-[0.2em] uppercase font-bold">

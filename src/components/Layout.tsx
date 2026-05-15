@@ -79,7 +79,7 @@ export default function Layout() {
           <div className="space-y-6">
             <Link to="/" className="flex items-center justify-center md:justify-start gap-4 group">
               <img 
-                src="" 
+                src="https://static.vecteezy.com/system/resources/previews/019/584/620/non_2x/nua-logo-and-graphics-design-art-icons-isolated-on-black-background-vector.jpg" 
                 alt="NUVA Logo" 
                 className="h-14 w-auto brightness-0 invert opacity-80 hover:opacity-100 transition-all group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -87,7 +87,7 @@ export default function Layout() {
               <span className="font-serif text-4xl text-brand-cream tracking-tighter">NUA</span>
             </Link>
             <p className="text-[10px] max-w-xs leading-relaxed tracking-widest uppercase opacity-60">
-              © 2026 Nua Studio. Capturing authentic human connections through minimalist visual storytelling.
+              © 2026 Nua Studio. Capturing authentic human connections through minimalist visual storytelling. POWERED BY DEVCOTEL.COM
             </p>
           </div>
           <div className="flex flex-wrap justify-center md:justify-end gap-x-12 gap-y-6 text-[10px] tracking-[0.2em] uppercase font-bold">

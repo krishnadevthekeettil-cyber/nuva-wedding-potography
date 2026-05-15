@@ -32,7 +32,7 @@ export default function Home() {
             transition={{ duration: 1.2, ease: "easeOut" }}
           >
             <span className="block text-brand-cream/80 text-[10px] sm:text-xs font-bold tracking-[0.4em] uppercase mb-8">
-              Luxury Wedding Photography
+              NUA Wedding Photography
             </span>
             <h1 className="font-serif text-5xl sm:text-7xl md:text-8xl lg:text-9xl text-brand-cream tracking-tighter leading-[0.85] mb-12 text-balance">
               Capturing <br /> Timeless Moments
